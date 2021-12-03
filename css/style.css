@@ -12,6 +12,14 @@ body {
 
 }
 
+.bg {
+
+    background-image: url("/images/portfolio-bg.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+}
+
 .container {
 
     min-height: calc(100vh - 60px);
