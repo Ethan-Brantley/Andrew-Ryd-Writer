@@ -203,6 +203,13 @@ p {
 
 }
 
+#footer p {
+
+    text-indent: 0;
+    font-size: 1.3em;
+
+}
+
 .text-light {
 
     color:#a8a8a8;
