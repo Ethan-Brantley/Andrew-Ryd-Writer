@@ -257,6 +257,12 @@ p {
       margin: 0;
     }
 
+    .bg {
+
+        background-image: url("../images/darkened_mobile.jpg");
+
+    }
+
     #bio-img {
 
         width: 100%;
@@ -332,7 +338,9 @@ p {
 
     #footer {
 
-        font-size: 12px;
+        padding: 2px;
+        font-size: 11px;
+        min-height: 50px;
 
     }
   }
