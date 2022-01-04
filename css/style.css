@@ -15,7 +15,7 @@ body {
 
 .bg {
 
-    background-image: url("/images/portfolio-bg.jpg");
+    background-image: url("../images/darkened.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
 
@@ -232,7 +232,8 @@ p {
     background-color: #141414;
     text-align: center;
     width: 100%;
-    min-height: 60px;
+    min-height: 30px;
+    font-size: 12px;
 
 }
 
