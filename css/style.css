@@ -7,11 +7,6 @@ header {
   padding-bottom: 100px; }
 
 /* line 11, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
-html {
-  scroll-snap-type: mandatory;
-  scroll-snap-type: y mandatory; }
-
-/* line 18, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 body {
   background-color: #141414;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,44 +14,38 @@ body {
   margin: 0;
   position: relative; }
 
-/* line 28, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
-.snap-point {
-  scroll-snap-align: center;
-  text-align: center;
-  position: relative; }
-
-/* line 36, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 21, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 section {
   border-bottom: 1px solid white;
   padding: 1rem;
   height: 100vh; }
 
-/* line 46, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 31, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .bg {
   background-image: url("../images/darkened.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position: center; }
 
-/* line 55, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 40, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .container {
   min-height: 100vh; }
 
-/* line 61, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 46, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 #content {
   min-height: 100vh; }
 
-/* line 67, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 52, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 #content:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 75, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 60, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 p {
   text-indent: 2em; }
 
-/* line 81, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 66, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .brand {
   margin: 20px 20px 8px 20px;
   padding: 2px;
@@ -64,39 +53,39 @@ p {
   float: left;
   /*border-bottom: 2px solid #494ead;*/ }
 
-/* line 91, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 76, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 35px;
   float: right; }
 
-/* line 100, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 85, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .nav-item {
   display: inline;
   padding: 50px; }
 
-/* line 107, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 92, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .link {
   text-decoration: none; }
 
-/* line 113, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 98, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .preview {
   width: 100%;
   display: inline-block;
   margin-top: 50px; }
 
-/* line 121, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 106, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .preview h1 {
   font-size: 1.5em;
   text-align: center; }
 
-/* line 128, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 113, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .preview h2 {
   font-size: 1em;
   text-align: center; }
 
-/* line 135, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 120, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .cover-page {
   text-align: center;
   position: absolute;
@@ -109,72 +98,72 @@ p {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
 
-/* line 150, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 135, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .btn {
   background-color: #494ead;
   text-decoration: none;
   padding: 15px; }
 
-/* line 160, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 145, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .left-col {
   float: left;
   width: 75%;
   margin-left: 50px; }
 
-/* line 168, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 153, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .right-col {
   float: left;
   width: 18%;
   padding-left: 40px;
   margin-right: 50px; }
 
-/* line 177, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 162, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .card {
   padding: 50px;
   display: inline-block; }
 
-/* line 184, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 169, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .bio {
   width: 70%;
   padding-top: 50px;
   margin-left: 15%;
   float: left; }
 
-/* line 191, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 176, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .bio h1 {
   text-align: left;
   font-size: 20px;
   border-bottom: 2px solid #494ead;
   display: inline; }
 
-/* line 200, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 185, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .bio h2 {
   text-align: left;
   font-size: 30px; }
 
-/* line 207, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 192, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .fakeimg {
   background-color: black;
   padding: 20px;
   margin-top: 20px; }
 
-/* line 215, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 200, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .portfolio {
   width: 100%;
   text-align: center; }
 
-/* line 223, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 208, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .sectionA {
   width: 100%;
   float: left;
   padding: 25px;
   background-color: #141414; }
 
-/* line 233, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 218, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .sectionA h2 {
   text-align: center; }
 
-/* line 239, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 224, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .sectionB {
   width: 100%;
   float: left;
@@ -182,17 +171,17 @@ p {
   background-color: #ffffff;
   color: #141414; }
 
-/* line 249, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 234, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .sectionB h2 {
   text-align: center; }
 
-/* line 255, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 240, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 #bio-img {
   float: right;
   margin-left: 50px;
   width: 25%; }
 
-/* line 261, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 246, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 #footer {
   background-color: #141414;
   text-align: center;
@@ -200,45 +189,45 @@ p {
   min-height: 30px;
   font-size: 12px; }
 
-/* line 271, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 256, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .text-light {
   color: #ffffff; }
 
-/* line 278, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+/* line 263, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
 .text-medium {
   color: #a8a8a8; }
 
 @media screen and (max-width: 800px) {
-  /* line 285, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 270, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .left-col, .right-col {
     width: 100%;
     padding: 0;
     margin: 0; }
-  /* line 291, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 276, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .bg {
     background-image: url("../images/darkened_mobile.jpg"); }
-  /* line 297, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 282, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   #bio-img {
     width: 100%;
     padding-bottom: 50px;
     padding-top: 50px; }
-  /* line 305, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 290, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   #footer p {
     text-indent: 0;
     font-size: 1.3em; }
-  /* line 312, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 297, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .card {
     display: block; }
-  /* line 318, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 303, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .nav-item {
     padding: 5px; }
-  /* line 324, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 309, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .navbar {
     padding: 25px 0px 0px 0px;
     display: block;
     width: 100%;
     text-align: center; }
-  /* line 333, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 318, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .brand {
     font-size: 20px;
     margin: 0;
@@ -247,20 +236,20 @@ p {
     width: 100%;
     text-align: center;
     font-size: 25px; }
-  /* line 345, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 330, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .cover-page {
     padding: 0px;
     width: 75%; }
-  /* line 352, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 337, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .cover-page h1 {
     font-size: 20px; }
-  /* line 358, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 343, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .cover-page p {
     font-size: 15px; }
-  /* line 364, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 349, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   .sectionB {
     margin-top: 50px; }
-  /* line 370, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
+  /* line 355, ../../../Desktop/Atlas/Projects/Ethan Brantley Project/scss/style.scss */
   #footer {
     padding: 2px;
     font-size: 11px;
